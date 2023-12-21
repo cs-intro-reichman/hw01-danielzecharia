@@ -10,15 +10,9 @@ public class Triangle {
   int b= Integer.parseInt(args[1]);
   int c= Integer.parseInt(args[2]);
 
-  if(a+b>c)
-    if(a+c>b)
-      if(b+c>a)
-        System.out.println( a + " , " + b + " , " + c + " : true ");
-      else
-        System.out.println( a + " , " + b + " , " + c + " : false ");
-     else 
-      System.out.println( a + " , " + b + " , " + c + " : false ");
+  if((a+b>c)&&(a+c>b)&&(b+c>a))
+    System.out.println( a + " , " + b + " , " + c + " : true");
   else
-    System.out.println( a + " , " + b + " , " + c + " : false ");
+    System.out.println( a + " , " + b + " , " + c + " : false");
 	}
 }
