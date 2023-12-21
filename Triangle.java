@@ -13,12 +13,12 @@ public class Triangle {
   if(a+b>c)
     if(a+c>b)
       if(b+c>a)
-        System.out.println(a + " , " + b + " , " + c + " : true");
+        System.out.println( a + " , " + b + " , " + c + " : true " );
       else
-        System.out.println(a + " , " + b + " , " + c + " : false");
+        System.out.println( a + " , " + b + " , " + c + " : false " );
      else 
-      System.out.println(a + " , " + b + " , " + c + " : false");
+      System.out.println( a + " , " + b + " , " + c + " : false " );
   else
-    System.out.println(a + " , " + b + " , " + c + " : false");
+    System.out.println( a + " , " + b + " , " + c + " : false " );
 	}
 }
