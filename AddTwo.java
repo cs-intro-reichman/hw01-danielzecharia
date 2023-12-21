@@ -7,8 +7,8 @@ public class AddTwo {
 
 	int b = Integer.parseInt(args[1]);
 
-	System.out.println("java AddTwo "+a+" "+b);
+	System.out.println("java AddTwo "+ a + " " + b);
 	
-	System.out.println(a+" + "+b+" = "+ (a+b));
+	System.out.println( a + " + " + b + " = " + (a+b));
 	}
 }
